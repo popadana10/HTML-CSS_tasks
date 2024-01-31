@@ -44,17 +44,35 @@ ul li a {
 
 /* ------ Main -------*/
 
+.section1 {
+    padding: 50px 50px 50px 50px;    
+}
+.section2 {
+    padding: 50px 50px 50px 50px;    
+}
+.section3 {
+    padding: 50px 50px 50px 50px;    
+}
+
 .img1 {
     max-width: 30%;
-    
+    float: left;
+    padding: 2px;
+    margin: 5px;
 }
 
 .img2 {
     max-width: 30%;
+    float: left;
+    padding: 2px;
+    margin: 5px;
 }
 
 .img3 {
     max-width: 30%;
+    float: left;
+    padding: 2px;
+    margin: 5px;
 }
 
 
