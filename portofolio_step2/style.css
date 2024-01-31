@@ -1,0 +1,33 @@
+/* ----- Reset the default margin, padding, and box-sizing properties for all HTML elements.
+  By setting margin and padding to 0 and box-sizing to border-box, we ensure a consistent layout 
+  and avoid unexpected spacing and sizing issues across different elements. ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* ------ Header Area -------*/
+
+header {
+    background: #333;
+    background-image: url(mountain.avif);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+    color: white;
+}
+
+ul li a {  
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
