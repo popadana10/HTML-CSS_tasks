@@ -42,14 +42,19 @@ ul li a {
 }
 
 
-/* ------ Main -------*/
+/* ----------- Main ------------ */
 
 /* -- section 1 -- */
 .section1 {
-    padding: 50px 50px 50px 50px;    
+    display: grid;
+    grid-row: auto;
+    grid-gap: 20px;
+    margin: 0;
+    padding: 20px;    
+    max-width: 100%;
 }
 
-.h2_section1{
+.projects{
     padding: 10px;
 }
 
@@ -63,12 +68,14 @@ ul li a {
 
 /* -- section 2 -- */
 .section2 {
-    padding: 50px 50px 50px 50px;   
+    display: grid;
+    grid-gap: 20px;
+    margin: 0;
+    padding: 0;  
     background-color: #716d3e;
-    ; 
 }
 
-.h2_section2{
+.about_me{
     padding: 10px;
     color: #f9ebc7;
 }
@@ -83,11 +90,14 @@ ul li a {
 
 /* -- section 3 -- */
 .section3 {
-    padding: 50px 50px 50px 50px; 
+    display: grid;
+    grid-gap: 20px;
+    margin: 0;
+    padding: 0; 
     text-align: left;  
 }
 
-.h2_section3{
+.skills{
     padding: 10px;
 }
 
@@ -95,8 +105,19 @@ ul li a {
     max-width: 30%;
     float: left;
     padding: 5px 5px 5px 5px;
-    margin: 5px;
+    margin: 0 auto;
     height: auto;
+    display: block;
+
+}
+
+p {
+    padding: 20px;
+    font-size: medium;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 
