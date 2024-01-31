@@ -74,3 +74,66 @@ td, th {
 .odd {
     background-color: rgb(219, 188, 150);
 }
+
+.banner {
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    border: 1px solid red;
+}
+
+/* Main Area */ 
+
+section {
+    padding: 35px;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+img {
+    max-width: 400px;
+}   
+
+.contact
+{
+    padding-top: 0;
+}
+
+.pic1 {
+    float: left;
+}
+
+
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 3px solid white;
+}
+
+thead {
+    font-weight: bolder;
+    background: orange;
+    color: white;
+
+}
+
+td, th {
+    text-align: left;
+    width: 200px;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+
+.odd {
+    background: rgb(241, 237, 233);
+}
