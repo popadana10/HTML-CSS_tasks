@@ -11,23 +11,62 @@
  /* ------ Header Area -------*/
 
 header {
-    background: #333;
-    background-image: url(mountain.avif);
+    background: transparent;
+    text-align: center;
+    position: relative; 
+    z-index: 1;
 }
 
 nav ul {
     list-style-type: none;
+    color: #333;
 }
 
 header li {
     display: inline-block;
-    color: white;
-}
+    color:#333;;
+} 
 
 ul li a {  
     margin: 20px;
-    color: white;
+    color: #333;
     text-decoration: none;
     display: block;
+}
+
+/* ------ Main -------*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* to make the image stay behind other content */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* to make sure the image covers the entire container */
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background stays behind other content */
+    background-image: url('img_1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
