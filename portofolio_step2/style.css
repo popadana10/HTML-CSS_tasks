@@ -72,7 +72,9 @@ ul li a {
 /* -- section 2 -- */
 .section2 {
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+    border: 0;
     background-color: #716d3e;
    
 }
@@ -144,3 +146,19 @@ footer {
     margin: 0 auto;
     text-align: center; 
 }
+
+/* --- form --- */
+
+.form { 
+    display: block;
+    margin-top: 0em;
+  }
+
+  .textarea {
+
+  }
+
+  .button {
+    position: absolute;
+    
+  }
