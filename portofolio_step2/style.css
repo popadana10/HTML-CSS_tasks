@@ -11,14 +11,44 @@ body {
 
 /* Header */
 header {
-    background-color: #f9ebc7;
-    padding: 20px 0;
+    padding-top: 100px;
+    background: transparent;
     text-align: center;
+    position: relative; 
+    z-index: 1;
+    background-image: url('img_1.jpg'); 
+    background-size: cover;
+    background-position: center;
 }
+
+header h2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #FEFAE0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    color: #f9ebc7;
+}
+
+header li {
+    display: inline-block;
+    color:#f9ebc7;;
+} 
+
+ul li a {  
+    margin: 0px;
+    color: #f9ebc7;
+    text-decoration: none;
+    display: block;
+}
+
 
 header h1 {
     margin-bottom: 10px;
-    color: #716d3e;
+    color: #FEFAE0;
 }
 
 nav ul {
@@ -32,7 +62,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f9ebc7;
 }
 
 /* Main */
@@ -62,7 +92,7 @@ section h2 {
 }
 
 .img2 {
-    max-width: 200px;/* Add margin to separate the image from the text */
+    max-width: 200px;
 }
 
 
@@ -91,13 +121,14 @@ footer {
 
 h3 {
     margin-bottom: 10px;
-    color: #f9ebc7;
+    color: #FEFAE0;
 }
 
 .form label {
     display: block;
     margin-bottom: 5px;
     color: #f9ebc7;
+    text-align: left;
 }
 
 .form input[type="text"],
