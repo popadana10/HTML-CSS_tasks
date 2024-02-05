@@ -80,14 +80,14 @@
     <!-- FOOTER -->
     <footer>
       <h3 id="contact">Contact me</h3>
-      <form class="form">
+      <form class="form" id="contactForm">
         <label for="name">Your name</label>
         <input
           class="nameInput"
           type="text"
           id="name"
           name="name"
-          value="John Smith" />
+          placeholder="John Smith" />
         <br />
         <label for="email">Your email</label>
         <input
@@ -95,7 +95,7 @@
           type="text"
           id="email"
           name="email"
-          value="john.smith@gmail.com" />
+          placeholder="john.smith@gmail.com" />
         <br />
         <label for="text">Message to me</label>
         <textarea
@@ -104,8 +104,7 @@
           id="message"
           cols="45"
           rows="3">
- ....</textarea
-        >
+        </textarea>
         <br />
         <input class="button" type="submit" value="SEND MESSAGE" />
       </form>
@@ -113,5 +112,6 @@
         <p>Copyright &copy; 2024 My Portfolio</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
