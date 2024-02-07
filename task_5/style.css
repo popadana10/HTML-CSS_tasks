@@ -9,6 +9,24 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #d2ab80;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logIn {
+    color: white;
+}
+
+#logInP {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .container {
     margin: 50px auto;
     width: 300px;
@@ -66,5 +84,6 @@ h1 {
 }
 
 .disclaimer {
-
+    margin-bottom: 20px;
+    font-size: 12px;
 }
