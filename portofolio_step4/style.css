@@ -106,16 +106,16 @@ section h2 {
     max-width: 200px;
 }
 
-
-
 .content {
-    display: flex;
+    display: flex-start;
     align-items: center;
+    
 }
 
 .content img {
     max-width: 200px;
     margin-right: 20px;
+    max-width: 200px;
 }
 
 .content p {
