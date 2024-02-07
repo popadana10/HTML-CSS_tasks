@@ -3,35 +3,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>SNewsletter Form</title>
+    <title>Newsletter Form</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="form-wrap">
+        <h1>Sign Up</h1>
+        <p>It's free and only takes a minute!</p>
 
-    <h1>Sign Up</h1>
-    <p>It's free and only takes a minute!</p>
+        <form action="">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
 
-    <form action="">
-      <label for="firstName">First Name</label>
-      <input type="text" name="firstName" id="firstName" />
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastname" />
+          </div>
 
-      <label for="lastName">Last Name</label>
-      <input type="text" name="lastName" id="lastname" />
+          <div class="form-group">
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email" />
+          </div>
 
-      <label for="email">Email </label>
-      <input type="email" name="email" id="email" />
+          <div class="form-group">
+            <label for="password1">Password</label>
+            <input type="password1" name="password1" id="password1" />
+          </div>
 
-      <label for="password1">Password</label>
-      <input type="password1" name="password1" id="password1" />
+          <div class="form-group">
+            <label for="password2">Confirm password</label>
+            <input type="password2" name="password2" id="password2" />
+          </div>
 
-      <label for="password2">Confirm password</label>
-      <input type="password2" name="password2" id="password2" />
-
-      <button type="submit">Sign Up</button>
-    </form>
-    <p>
-      By clicking the Sign Up button, you agree to our
-      <a href="#">Terms & Conditions</a>and <a href="#">Privacy Policy</a>
-    </p>
+          <button type="submit">Sign Up!</button>
+        </form>
+        <p>
+          By clicking the Sign Up button, you agree to our
+          <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+      <p>Already have an account? <a href="#">Log in!</a></p>
+    </div>
   </body>
 </html>
