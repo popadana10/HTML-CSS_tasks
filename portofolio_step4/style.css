@@ -66,6 +66,7 @@ nav ul li a {
 }
 
 /* Main */
+
 main {
     padding: 20px;
 }
@@ -106,16 +107,16 @@ section h2 {
     max-width: 200px;
 }
 
+
+
 .content {
-    display: flex-start;
+    display: flex;
     align-items: center;
-    
 }
 
 .content img {
     max-width: 200px;
     margin-right: 20px;
-    max-width: 200px;
 }
 
 .content p {
@@ -212,6 +213,74 @@ h3 {
 }
 
 .section1 {
-    margin-bottom: 40px; /* Add margin-bottom to create space between section 1 and section 2 */
+    margin-bottom: 40px;
 }
 
+/* Project Cards */
+
+.project-cards {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .project-card {
+    flex: 0 0 auto;
+    width: 120px; 
+    margin-right: 10px; 
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    border: 2px solid #d0cc99; 
+  }
+  
+  .project-card img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .project-card h3 {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #797652;
+  }
+  
+  .project-card p {
+    font-size: 14px; 
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .project-card a {
+    font-size: 14px; 
+    color: #C4661F;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Support for iPhone SE */
+
+  @media screen and (max-width: 320px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  
+  /* Support for iPad */
+
+  @media screen and (min-width: 768px) {
+    .project-card {
+      width: calc(33.3333% - 10px);
+    }
+  }
+  
