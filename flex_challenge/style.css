@@ -58,10 +58,12 @@ section {
 
 .section-post-container {
     display: flex;
+    height: 100%;
 }
 
 .post-meta {
     flex: 1;
+    background: lightgreen;
 }
 
 .main-content-container {
@@ -75,13 +77,17 @@ section {
     flex: 1;
 }
 
-.main-content-image {
+.main-content-img {
     background: yellow;
-
+    flex: 2;
 }
 
 /* aside */
 
 aside {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%s;
 }
+
