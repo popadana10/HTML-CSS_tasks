@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Step 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Dana Popa</h1>
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h2>Welcome to my Portfolio</h2>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <article class="section1" id="projects">
+        <h2 class="projects">Projects</h2>
+        <!-- Project Cards -->
+        <div class="project-cards">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <img src="img_4.jpg" alt="Project 1" />
+            <h3>Project 1</h3>
+            <p>
+              Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Integer eget felis nec ipsum commodo fermentum. lo
+            </p>
+            <a href="#">See more</a>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <img src="img_5.jpg" alt="Project 2" />
+            <h3>Project 2</h3>
+            <p>
+              Description: Ut eu ipsum eget nunc consectetur venenatis. Nulla
+              facilisi. In nec nibh sit amet odio pharetra mollis.
+            </p>
+            <a href="#">See more</a>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <img src="img_6.jpg" alt="Project 3" />
+            <h3>Project 3</h3>
+            <p>
+              Description: Vestibulum nec viverra mauris. Sed vel ultrices quam.
+              In hac habitasse platea dictumst. Vivamus id ante ligula.
+            </p>
+            <a href="#">See more</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="section2" id="about">
+        <h2 class="about_me">About me</h2>
+        <div class="content">
+          <img class="img2" src="img_2.jpg" alt="Image of a woman." />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cum
+            sunt, in consequuntur ipsam impedit natus sint quisquam ut quas
+            fugiat quae et debitis dolor maiores porro provident fugit facere!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            praesentium alias quae aliquam commodi sapiente facere quam
+            accusamus placeat autem vel iure modi aspernatur delectus
+            consectetur doloribus! Neque, dignissimos est!
+          </p>
+        </div>
+      </article>
+
+      <article class="section3" id="skills">
+        <h2 class="skills">Skills</h2>
+        <div class="content">
+          <img class="img3" src="img_3.jpg" alt="Image of a bird." />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            animi, modi minima obcaecati nisi, iure nostrum quae suscipit
+            mollitia similique aspernatur repellendus! Tempora eos maiores
+            eligendi ducimus nisi magni eius. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Possimus debitis obcaecati accusamus?
+            Necessitatibus voluptatibus natus rerum totam, voluptate alias,
+            velit asperiores expedita nemo nulla neque soluta ipsam, enim
+            perspiciatis eum.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <h3 id="contact">Contact me</h3>
+      <form class="form" id="contactForm">
+        <label for="name">Your name</label>
+        <input
+          class="nameInput"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="John Smith" />
+        <br />
+        <label for="email">Your email</label>
+        <input
+          class="emailInput"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="john.smith@gmail.com" />
+        <br />
+        <label for="text">Message to me</label>
+        <textarea
+          class="textarea"
+          name="message"
+          id="message"
+          cols="45"
+          rows="3">
+        </textarea>
+        <br />
+        <input class="button" type="submit" value="SEND MESSAGE" />
+      </form>
+      <div class="footer-content">
+        <p>Copyright &copy; 2024 My Portfolio</p>
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
