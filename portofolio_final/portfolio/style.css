@@ -72,8 +72,29 @@ nav a {
     padding-left: 40px;
 }
 
+#welcome {
+    font-family: "Imperial Script", cursive;
+    font-weight: 500;
+    font-size: 120px;
+    font-style: normal;
+}
 
-#dana, #popa, #project {
+#toMy {
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-size: 35px;
+    font-style: normal;
+}
+
+#portfolio {
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-size: 60px;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+#dana, #popa, #project, #aboutMe {
     font-family: "Imperial Script", cursive;
     font-weight: 500;
     font-size: 60px;
@@ -113,18 +134,32 @@ nav a {
     margin-right: 20px;
 }
 
-.section1 {
-    padding: 20px;
+.section1, .section2 {
+    padding:0;
 }
 
-.section1 h2 {
+.section1 {
+    background-color: #626237;
+}
+
+.section2 {
+    padding-bottom: 80px;
+}
+
+.section1 h2, .section2 h2 {
     text-align: left;
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 30px;
-    color: #626237;
+    color: #FEFAE0;
     font-family: "DM Serif Display", serif;
     font-weight: 100;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.section2 h2 {
+    color: #626237;
 }
 
 .section1 h3 {
@@ -141,28 +176,36 @@ nav a {
 .scrollContainer {
     overflow-x: auto; 
     white-space: nowrap; 
+    padding: 40px;
 }
 
 .contentProjects {
     display: inline-block; 
     text-align: center;
+    background-color: #FEFAE0;
+    padding: 0;
 }
 
 .card {
     width: 300px; 
     display: inline-block;
     margin-right: 20px;
-    border: 1px solid #D86B18;
-    border-radius: 8px;
+    border: none;
+    border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: top;
     position: relative;
     vertical-align: top;
+    background-color: #FEFAE0;
 }
 
 .card:last-child {
-    margin-right: 0; 
+    margin-right: 30px; 
+}
+
+.card:first-child {
+    margin-left: -10px;
 }
 
 .card img {
@@ -210,26 +253,28 @@ nav a {
 
 }
 
-#welcome {
-    font-family: "Imperial Script", cursive;
-    font-weight: 500;
-    font-size: 120px;
-    font-style: normal;
+.contentAbout img {
+    max-width: 40VH;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    padding-right: 10px;
 }
 
-#toMy {
-    font-family: "DM Serif Display", serif;
-    font-weight: 100;
-    font-size: 35px;
-    font-style: normal;
+.contentAbout {
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 20px;
 }
 
-#portfolio {
-    font-family: "DM Serif Display", serif;
-    font-weight: 100;
-    font-size: 60px;
-    font-style: normal;
-    padding-top: 20px;
+.contentAbout p {
+    color: #783D19;
+    font-family: 'lato';
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
 }
 
 footer {
@@ -434,7 +479,6 @@ button.mobile {
         box-shadow: 0 10px 10px rgba(67, 67, 67, 0.1);
    }
 
-   
    #toMy {
     font-size: 25px;
    }
